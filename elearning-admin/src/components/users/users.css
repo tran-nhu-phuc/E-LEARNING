@@ -1,0 +1,97 @@
+.admin_user_page_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.admin_user_page_header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.search_user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.search_bar {
+    border: 1px solid #e8e8e8;
+    border-radius: 20px;
+    height: 40px;
+    padding: 0 30px 0 40px;
+    width: 420px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.search_icon {
+    position: absolute;
+    font-size: 23px;
+    color: #5D60Ef;
+    left: 10px;
+    top: 8px;
+}
+
+.search_icon:hover {
+    color: black;
+}
+
+.admin_user_button {
+    background-color: #174fe8;
+    color: white;
+    font-weight: 600;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.admin_user_button:hover {
+    background-color: white;
+    border: 0.5px solid #174fe8;
+    color: #174fe8;
+}
+
+.user_action_button {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.user_action_button button {
+    background-color: #174fe8;
+    color: white;
+    font-weight: 600;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+.user_action_button button:hover,
+.admin_lesson_action_button button:hover {
+    filter: brightness(0.8);
+}
+
+.admin_lesson_action_button {
+    display: flex;
+    gap: 10px;
+}
+
+.admin_lesson_action_button button {
+    background-color: #174fe8;
+    color: white;
+    font-weight: 600;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+}

@@ -1,0 +1,24 @@
+button {
+    overflow: hidden;
+}
+
+.admin_course_info_container {
+    position: relative;
+
+}
+
+.course_info_text_wrap {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    position: relative;
+    top: 0;
+}
+
+/* .course_info {
+    transition: opacity 0.3s ease-in-out;
+    opacity: 1;
+} */

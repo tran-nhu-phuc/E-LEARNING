@@ -1,0 +1,142 @@
+.course_detail_container_body {
+    position: relative;
+    display: flex;
+
+}
+
+h1 {
+    font-size: 45px;
+}
+
+.course_detail_main {
+    padding: 50px;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.course_detail_main_desc,
+.course_detail_mini_title_checkLine p {
+    color: #999;
+}
+
+
+.course_detail_main_title {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.course_detail_mini_title {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.course_detail_mini_title_courseIndex {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.course_detail_mini_title_courseIndex_detail {
+    background-color: #F5F5F5;
+    padding: 20px 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.course_detail_mini_title_info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+}
+
+.course_detail_mini_title_courseInfo {
+    display: flex;
+    gap: 20px;
+}
+
+.course_detail_mini_title_checkLine {
+    display: flex;
+    gap: 20px;
+}
+
+.checkLine_icon {
+    color: #F16239;
+}
+
+.course_detail_mini_title_info_request {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.course_detail_aside {
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.course_detail_aside img {
+    width: 100%;
+    border-radius: 10px;
+}
+.course_detail_aside img:hover {
+    filter: brightness(0.6);
+}
+
+.course_detail_aside_price {
+    font-size: 30px;
+    color: #F16239;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.course_detail_aside_button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: #F16239;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.course_detail_aside_button:hover {
+    background-color: white;
+    color: #F16239;
+    border: 1px solid #F16239;
+}
+
+.course_detail_aside_info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: flex-start;
+}
+
+.course_detail_aside_info_line {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+}

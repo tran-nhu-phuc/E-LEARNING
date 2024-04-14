@@ -1,0 +1,96 @@
+.modalAddOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modalAdd {
+    background-color: #fff;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.modalAddInputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.modalAddInput {
+    margin-bottom: 10px;
+}
+
+.modalAddInput input,
+.modalAddInput select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.modalAddActions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.modalAddActions button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.modalAddImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.modalAddImg img {
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 5px;
+}
+
+.selectFile label {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectFile label:hover {
+    background-color: #0056b3;
+}
+
+.selectFile input[type="file"] {
+    display: none;
+}
+
+
+.ant-popconfirm {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1001;
+}
+
+.ant-popconfirm button {
+    overflow: hidden;
+}

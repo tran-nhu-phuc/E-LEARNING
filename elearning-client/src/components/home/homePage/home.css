@@ -1,0 +1,129 @@
+.home_container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+/*  */
+.home_info_introduction1 {
+    display: flex;
+    gap: 30px;
+    padding: 50px 0px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.05);
+    width: 93%;
+}
+
+.home_info_introduction1 h2 {
+    color: #FF7131;
+    font-size: 25px;
+    width: 60%;
+}
+
+.home_info_detail {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+
+.home_info_detail_box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.home_info_img {
+    border-radius: 30px;
+}
+
+/*  */
+
+
+.home_info_introduction2_box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+
+}
+
+.home_info_introduction2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 50px 0px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.05);
+    width: 93%;
+}
+
+.introduction2_box_info {
+    position: relative;
+    max-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 50px;
+    padding: 20px;
+    text-align: center;
+    overflow: visible;
+}
+
+.home_info_introduction2 h2 {
+    font-weight: 600;
+    color: #1212AE;
+}
+
+.introduction2_symbol {
+    background-color: #3030b6;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    transform: translateY(10px);
+}
+
+.introduction2_content {
+    box-shadow:
+        5px 5px 5px rgba(0, 0, 0, 0.05),
+        /* Top-left */
+        -5px 5px 5px rgba(0, 0, 0, 0.05),
+        /* Top-right */
+        5px -5px 5px rgba(0, 0, 0, 0.05),
+        /* Bottom-left */
+        -5px -5px 5px rgba(0, 0, 0, 0.05);
+    /* Bottom-right */
+    padding: 20px;
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.introduction2_react_icon {
+    font-size: 45px;
+    color: white;
+}
+
+.introduction2_button {
+    background-color: #1212AE;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.introduction2_button:hover {
+    background-color: #5252ec;
+}

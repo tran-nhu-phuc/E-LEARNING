@@ -1,0 +1,35 @@
+.sidebar_body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.sidebar_nav {
+    width: 72px;
+    height: 72px;
+    /* background-color: #e8ebed; */
+    background-color: transparent;
+    color: #1a1a1a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    gap: 5px;
+}
+
+.sidebar_nav p {
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.sidebar_nav_icon {
+    font-size: 25px;
+}
+
+.sidebar_nav:hover {
+    cursor: pointer;
+    background-color: rgb(241, 243, 244);
+}

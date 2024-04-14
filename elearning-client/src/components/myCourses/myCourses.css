@@ -1,0 +1,43 @@
+.my_course {
+    margin: 50px 30px;
+}
+.my_course_history {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.my_course_avatars {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+.my_course_avatars p {
+    font-size: 30px;
+    font-weight: 600;
+}
+.my_course_avatars .my_course_avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+}
+.my_course_avatars .my_course_avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.my_course_avatars .my_course_avatar .my_course_avatar_action {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+.my_course_icon_avatar {
+    font-size: 25px;
+    color: #999;
+}
+.my_course_img_empty {
+    width: 500px;
+    height: 400px;
+    transform: translateX(500px);
+}

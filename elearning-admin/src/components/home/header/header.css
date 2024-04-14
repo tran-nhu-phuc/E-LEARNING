@@ -1,0 +1,100 @@
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    z-index: 200;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.05);
+}
+
+
+.header_container {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 35px;
+    z-index: 20;
+}
+
+/* phần logo của header */
+.header_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header_logo img {
+    border-radius: 8px;
+    flex-shrink: 0;
+    height: 38px;
+    object-fit: contain;
+    width: 38px;
+}
+
+.header_logo img:hover {
+    cursor: pointer;
+}
+
+/* phần search của header */
+.header_search {
+    position: relative;
+}
+
+.header_search_bar {
+    border: 1px solid #e8e8e8;
+    border-radius: 20px;
+    height: 40px;
+    padding: 0 30px 0 40px;
+    width: 420px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.header_search_icon {
+    position: absolute;
+    font-size: 23px;
+    color: #5D60Ef;
+    left: 10px;
+    top: 8px;
+}
+
+.header_search_icon:hover {
+    color: black;
+}
+
+/* phần avatar */
+
+.header_info,
+.header_info_admin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.header_info_admin_avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #5D60Ef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+}
+
+.header_info_button {
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+}
+
+.header_info_button:hover {
+    color: red;
+}

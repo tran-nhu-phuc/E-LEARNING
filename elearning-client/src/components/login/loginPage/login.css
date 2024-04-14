@@ -1,0 +1,156 @@
+.login_container {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/project-shop-gundam.appspot.com/o/newProject%2Fflat-lay-workstation-with-cup-tea-copy-space.jpg?alt=media&token=51eed2aa-1afd-4212-8177-5b45755901c3);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.login_container_body {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+}
+
+/*  */
+.info_box {
+    background-color: transparent;
+    width: 370px;
+    height: 520px;
+    border-radius: 20px;
+    padding: 30px;
+    overflow-y: hidden;
+    color: white;
+    border: 2px solid #565656;
+}
+
+.register_body {
+    text-align: center;
+}
+
+.register_form {
+    padding: 10px;
+
+}
+
+.register_input {
+    width: 450px;
+    height: 60px;
+    overflow-y: hidden;
+
+}
+
+.register_input input {
+    height: 40px;
+}
+
+.register_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register_button button {
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register_button button:hover {
+    background-color: white;
+    color: black;
+}
+
+/* register */
+.login_box {
+    background-color: white;
+    width: 370px;
+    height: 220px;
+    border-radius: 20px;
+    padding: 30px;
+    overflow-y: hidden;
+    color: white;
+}
+
+.login_body {
+    text-align: center;
+}
+
+.login_form {
+    padding: 20px 10px;
+}
+
+.login_input {
+    width: 450px;
+    height: 60px;
+    overflow-y: hidden;
+}
+
+.login_input input {
+    height: 40px;
+}
+
+.login_button button:hover {
+    background-color: white;
+    color: #FF8A37;
+}
+
+.login_navigator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.login_navigator_icon {
+    width: 50px;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+}
+
+.login_navigator_icon:hover {
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+
+
+.login_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_button button {
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.facebook {
+    background-color: rgb(0, 98, 255);
+}
+
+.instagram {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.github {
+    background-color: rgb(92, 92, 92);
+}
+
+.youtube {
+    background-color: rgb(249, 47, 15);
+}

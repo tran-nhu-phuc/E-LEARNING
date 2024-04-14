@@ -1,0 +1,99 @@
+.saleChart_body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
+    margin: 10px;
+
+}
+
+.saleChart_body h3 {
+    font-size: 20px;
+}
+
+.saleChart_box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.saleChart_box_detail {
+    display: flex;
+    flex-direction: column;
+}
+
+.saleChart_box_detail_totalSales,
+.saleChart_box_detail_totalOrders,
+.saleChart_box_detail_totalUsers,
+.saleChart_box_detail_totalCourses,
+.saleChart_box_detail_totalLessons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 450px;
+
+}
+
+.saleChart_box_detail_icon_totalOrders,
+.saleChart_box_detail_icon_totalSales,
+.saleChart_box_detail_icon_totalUsers,
+.saleChart_box_detail_icon_totalCourses,
+.saleChart_box_detail_icon_totalLessons {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+}
+
+.saleChart_box_detail_number {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.saleChart_box_detail_totalSales {
+    background-color: rgb(255, 226, 230);
+}
+
+.saleChart_box_detail_icon_totalSales {
+    background-color: rgb(250, 90, 126);
+}
+
+.saleChart_box_detail_totalOrders {
+    background-color: rgb(255, 244, 222);
+}
+
+.saleChart_box_detail_icon_totalOrders {
+    background-color: rgb(255, 148, 121);
+
+}
+
+.saleChart_box_detail_totalUsers {
+    background-color: rgb(244, 232, 255);
+}
+
+.saleChart_box_detail_icon_totalUsers {
+    background-color: rgb(191, 131, 255);
+}
+
+.saleChart_box_detail_totalCourses {
+    background-color: rgb(220, 252, 231);
+}
+
+.saleChart_box_detail_icon_totalCourses {
+    background-color: rgb(60, 215, 87);
+}
+
+.saleChart_box_detail_totalLessons {
+    background-color: rgb(220, 241, 252);
+}
+
+.saleChart_box_detail_icon_totalLessons {
+    background-color: rgb(60, 94, 215);
+}

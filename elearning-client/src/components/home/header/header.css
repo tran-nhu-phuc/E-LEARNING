@@ -1,0 +1,220 @@
+.header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: white;
+  z-index: 9;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.05);
+  overflow: visible;
+}
+
+.header_container {
+  display: flex;
+  height: 66px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 35px;
+  z-index: 20;
+}
+
+/* phần logo của header */
+.header_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.header_logo img {
+  border-radius: 8px;
+  flex-shrink: 0;
+  height: 38px;
+  object-fit: contain;
+  width: 38px;
+}
+
+.header_logo img:hover {
+  cursor: pointer;
+}
+
+/* phần search của header */
+.header_search_container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.header_search {
+  position: relative;
+}
+
+.header_search_bar {
+  border: 1px solid #e8e8e8;
+  border-radius: 20px;
+  height: 40px;
+  padding: 0 30px 0 40px;
+  width: 420px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.header_search_icon {
+  position: absolute;
+  font-size: 23px;
+  color: #444444;
+  left: 10px;
+  top: 8px;
+}
+
+.header_search_icon:hover {
+  color: black;
+}
+
+.search_list_detail {
+  position: absolute;
+  border-radius: 20px;
+}
+
+#searchList {
+  height: auto;
+  max-height: 200px;
+  overflow-y: scroll;
+  background-color: rgb(246, 246, 246);
+  padding: 15px 10px;
+  min-width: 420px;
+  margin-top: 45px;
+}
+
+.product_search_name:hover {
+  background-color: #413f3f;
+  color: white;
+  padding: 10px;
+  height: 30px;
+  display: -webkit-box;
+  line-height: 1;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  text-align: center;
+  transition: 0.3s;
+}
+
+#searchList li {
+  padding-top: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* phần nút đăng nhập/ đăng ký của login */
+
+.header_button {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.header_button button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 550;
+}
+
+.header_button button:hover {
+  opacity: 0.7;
+}
+
+.header_button_login {
+  border: 1px solid #e8e8e8;
+  background-color: transparent;
+}
+
+.header_button_register {
+  border: none;
+  background: linear-gradient(to right bottom, #ff8f26, #ff5117);
+  color: white;
+}
+
+.header_sup_info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.header_sup_info p {
+  font-size: 14px;
+  color: #444444;
+}
+
+.header_sup_info img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.header_profiles {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header_profiles button {
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 550;
+    padding: 5px 10px;
+    border: 1px solid #000;
+}
+.header_profiles button:hover {
+    background-color: #fff;
+}
+.header_profiles .header_profile {
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    transform: translateY(-200px);
+    border-radius: 20px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.header_profiles .header_profile .header_profile_actions {
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+.header_profiles .header_profile .header_profile_actions img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+    cursor: default;
+}
+.header_profiles .header_profile .header_profile_actions .header_profile_action {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    z-index: 99;
+    opacity: 0.4;
+}
+.header_profiles .header_profile .header_profile_actions .header_profile_action:hover {
+    opacity: 1;
+}

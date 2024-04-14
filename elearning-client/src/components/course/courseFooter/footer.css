@@ -1,0 +1,52 @@
+.course_footer_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.course_footer_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.course_footer_lesson_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    gap: 10px;
+    border-radius: 10px;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    color: #9F9F9F;
+}
+
+.course_footer_lesson_button:hover {
+    border: 1px solid #F0A18A;
+    color: #F0A18A;
+}
+
+.course_footer_session_title {
+    position: fixed;
+    right: 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.course_footer_session_button {
+    border: none;
+    background-color: white;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

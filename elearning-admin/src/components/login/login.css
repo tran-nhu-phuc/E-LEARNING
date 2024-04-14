@@ -1,0 +1,41 @@
+.admin_login_container {
+    background-image: url(https://img.freepik.com/free-vector/geometric-gradient-futuristic-background_23-2149116406.jpg?size=626&ext=jpg&ga=GA1.1.735520172.1711065600&semt=ais);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin_login_body {
+    display: flex;
+    background-color: transparent;
+    flex-direction: column;
+    gap: 40px;
+    width: 400px;
+    height: 350px;
+    color: white;
+}
+
+.admin_login_body h4 {
+    color: #38C6D0;
+}
+
+.login_input {
+    width: 450px;
+    height: 60px;
+}
+
+.login_input input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    color: #38C6D0;
+}
+
+.admin_login_body button {
+    border: none;
+}
